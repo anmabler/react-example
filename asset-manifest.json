@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-example/static/css/main.f239a23a.css",
+    "main.js": "/react-example/static/js/main.61e4e85c.js",
+    "static/js/787.0fbb6f55.chunk.js": "/react-example/static/js/787.0fbb6f55.chunk.js",
+    "static/media/mermaid-cupcakes.jpg": "/react-example/static/media/mermaid-cupcakes.a8d1d06edadb42ab25fc.jpg",
+    "index.html": "/react-example/index.html",
+    "main.f239a23a.css.map": "/react-example/static/css/main.f239a23a.css.map",
+    "main.61e4e85c.js.map": "/react-example/static/js/main.61e4e85c.js.map",
+    "787.0fbb6f55.chunk.js.map": "/react-example/static/js/787.0fbb6f55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f239a23a.css",
+    "static/js/main.61e4e85c.js"
+  ]
+}
