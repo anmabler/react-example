@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import cupcake from './img/mermaid-cupcakes.jpg';
+import Header from './Components/Header';
+
+// const Header = () => {
+//   return(
+//     <>
+//       <h1>This message comes from the header component</h1>
+//     </>
+//   )
+// }
 
 function App() {
+  const name = "John";
+  const x = false;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <h1>Hello React!</h1>
+      <h2>Hello {name}</h2>
+      <h2>{x ? 'Yes' : 'No'}</h2>
+      <img src={cupcake} alt="cupcake" />
     </div>
   );
 }

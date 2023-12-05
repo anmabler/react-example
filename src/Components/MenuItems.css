@@ -1,0 +1,9 @@
+ul{
+    list-style: none;
+    color: red;
+    display: flex;
+}
+
+li{
+    margin-right: 10px;
+}
